@@ -1,0 +1,28 @@
+{
+  "name": "@node-red-contrib-themes/dark",
+  "version": "0.0.1",
+  "description": "A dark theme for Node-RED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-red-contrib-themes/dark.git"
+  },
+  "keywords": [
+    "node-red",
+    "nodered",
+    "dark",
+    "theme"
+  ],
+  "author": "Mauricio Bonani @mbonani",
+  "funding": {
+    "type": "Buy me a coffee",
+    "url": "https://www.buymeacoffee.com/mbonani"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-red-contrib-themes/dark/issues"
+  },
+  "homepage": "https://github.com/node-red-contrib-themes/dark#readme"
+}
