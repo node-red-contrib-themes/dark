@@ -408,7 +408,7 @@
 
 .red-ui-editor .ace_marker-layer .ace_selection,
 .red-ui-editor-dialog .ace_marker-layer .ace_selection {
-  background-color: #1E1E1E;
+  background-color: #444;
 }
 
 .red-ui-editor .ace_read-only .ace_scroller,
