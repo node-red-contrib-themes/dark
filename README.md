@@ -7,7 +7,7 @@
 
 [![NPM Shield][npm-shield]][npm-package]
 
-## About
+<a href="https://www.buymeacoffee.com/mbonani" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="60px" width="217px"></a>
 
 A dark theme for [Node-RED][node-red].
 
@@ -15,24 +15,49 @@ A dark theme for [Node-RED][node-red].
 
 ## Install
 
-Change to the Node-RED `userDir` directory, usually `~/.node-red`.
+Install via npm.
 
 ```shell
-cd ~/.node-red
+$ cd ~/.node-red
+$ npm install @node-red-contrib-themes/dark
 ```
 
-Install this package.
+Add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
 
-```shell
-npm install @node-red-contrib-themes/dark
+```js
+editorTheme: {
+    theme: "dark"
+}
 ```
 
-Add the following to the `editorTheme` section of your `settings.js`.
+### Themed Scrollbars (EXPERIMENTAL)
+
+This includes changes to the scrollbars to make them better fit the theme.
+
+**NOTE**: This is ***EXPERIMENTAL*** and may not work on all browsers.
+
+If you want to try it, change the `editorTheme` section of your `settings.js` to
+look like the following, and then restart Node-RED.
+
+```js
+editorTheme: {
+    theme: "dark-scroll"
+}
+```
+
+### Node-RED versions from 1.0.0 to 1.2.9
+
+Add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
 
 ```js
 editorTheme: {
     page: {
-        css: "<HOME>/.node-red/node_modules/@node-red-contrib-themes/dark/theme.css"
+        css: [
+            "<HOME>/.node-red/node_modules/@node-red-contrib-themes/dark/theme.css"
+            // Uncomment the next two lines if you want to use the themed scrollbars.
+            // ,
+            // "<HOME>/.node-red/node_modules/@node-red-contrib-themes/dark/theme-scrollbars.css",
+        ]
     }
 }
 ```
@@ -43,25 +68,7 @@ example, `/home/username`.
 For more details on the configuration please refer to the
 [Node-RED official documentation][node-red-doc].
 
-Restart Node-RED.
-
 Enjoy!
-
-## Update
-
-Change to the Node-RED `userDir` directory, usually `~/.node-red`.
-
-```shell
-cd ~/.node-red
-```
-
-Update this package.
-
-```shell
-npm update @node-red-contrib-themes/dark
-```
-
-Reload the Node-RED page on the web browser.
 
 ## License
 
