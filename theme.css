@@ -18,6 +18,10 @@
   background-color: #121212;
 }
 
+.form-row .red-ui-clipboard-dialog-import-conflicts-controls label {
+  border-left-color: #444;
+}
+
 .help-key {
   border-color: #2C2C2C;
   background-color: #1A1A1A;
@@ -67,12 +71,28 @@
   border-color: #2B2B2B;
 }
 
+.red-ui-clipboard-dialog-import-conflicts-controls {
+  color: #CCC;
+}
+
+.red-ui-clipboard-dialog-import-conflicts-item-header {
+  background-color: #1A1A1A;
+}
+
+.red-ui-clipboard-dialog-import-conflicts-item-header>span:first-child {
+  color: #AAA;
+}
+
 .red-ui-clipboard-dialog-tab-clipboard textarea {
   background-color: #1E1E1E;
 }
 
 .red-ui-clipboard-dialog-tabs-content {
   background-color: #121212;
+}
+
+.red-ui-clipboard-dialog-tabs-content>div.red-ui-clipboard-dialog-export-tab-library-browser {
+  border-bottom-color: #222;
 }
 
 .red-ui-clipboard-import-error pre {
@@ -966,12 +986,16 @@
 }
 
 .red-ui-info-outline .red-ui-info-outline-item.red-ui-info-outline-item-empty,
-.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-empty {
+.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-empty,
+#red-ui-clipboard-dialog-import-conflicts-list .red-ui-info-outline-item.red-ui-info-outline-item-empty,
+#red-ui-clipboard-dialog-export-tab-clipboard-preview .red-ui-info-outline-item.red-ui-info-outline-item-empty {
   color: #777;
 }
 
 .red-ui-info-outline .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa,
-.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa {
+.red-ui-sidebar-help-toc .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa,
+#red-ui-clipboard-dialog-import-conflicts-list .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa,
+#red-ui-clipboard-dialog-export-tab-clipboard-preview .red-ui-info-outline-item.red-ui-info-outline-item-group .red-ui-search-result-node .red-ui-palette-icon-fa {
   color: #999;
 }
 
@@ -981,7 +1005,9 @@
 }
 
 .red-ui-info-outline .red-ui-search-result-node-label,
-.red-ui-sidebar-help-toc .red-ui-search-result-node-label {
+.red-ui-sidebar-help-toc .red-ui-search-result-node-label,
+#red-ui-clipboard-dialog-import-conflicts-list .red-ui-search-result-node-label,
+#red-ui-clipboard-dialog-export-tab-clipboard-preview .red-ui-search-result-node-label {
   color: #999;
 }
 
@@ -1101,6 +1127,11 @@
 
 .red-ui-palette-content {
   background-color: #121212;
+}
+
+.red-ui-palette-editor-upload {
+  background-color: #121212;
+  border-bottom-color: #444;
 }
 
 .red-ui-palette-header {
