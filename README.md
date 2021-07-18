@@ -23,8 +23,6 @@ npm install @node-red-contrib-themes/dark
 
 ## Configuration
 
-### Node-RED version 1.3.0 or later
-
 Add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
 
 ```js
@@ -46,25 +44,6 @@ editorTheme: {
     theme: "dark-scroll"
 },
 ```
-
-### Node-RED versions from 1.0.0 to 1.2.9
-
-Add the following to the `editorTheme` section of your `settings.js`, and then restart Node-RED.
-
-```js
-editorTheme: {
-    page: {
-        css: [
-            "<user-dir>/node_modules/@node-red-contrib-themes/dark/theme.min.css"
-            // Uncomment the next two lines if you want to use the themed scrollbars.
-            // ,
-            // "<user-dir>/node_modules/@node-red-contrib-themes/dark/scrollbars.min.css",
-        ],
-    },
-},
-```
-
-Replace `<user-dir>` with the Node-RED User directory. For example, `/home/username/.node-red`.
 
 For more details on the configuration please refer to the
 [Node-RED official documentation][node-red-doc].
