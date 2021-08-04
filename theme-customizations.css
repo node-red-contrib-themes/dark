@@ -46,11 +46,11 @@
 }
 
 .ace-tomorrow .ace_marker-layer .ace_active-line {
-  background: #2A2A2A
+  background: #3A3A3A
 }
 
 .ace-tomorrow .ace_gutter-active-line {
-  background-color: #2A2A2A
+  background-color: #3A3A3A
 }
 
 .ace-tomorrow .ace_stack {
@@ -173,15 +173,15 @@
 * Grip on separators
 */
 .red-ui-panels-separator {
-  border-top-color: #2D2D2D;
-  border-bottom-color: #2D2D2D;
+  border-top-color: #3A3A3A;
+  border-bottom-color: #3A3A3A;
   background: #1E1E1E url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAFCAYAAAAHQL+kAAAAcUlEQVQ4T91TSQoAIQyzC+gD5nP+UZ+nKKgdKniROc1NC4UkhdIQCuaSghijnO6FiAyEEGSMcbQXRLzDyEzEe/+01kA7pWR678DMmHM2zjlQXmsVay2s2BbfdZ1/aX/i3vcQ0XwBRBTFzCylFL1rKH4BoAtAJMHah4sAAAAASUVORK5CYII=") no-repeat 50% 50%;
 }
 
 .red-ui-panels.red-ui-panels-horizontal>.red-ui-panels-separator {
   background: #1E1E1E url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAzMzMyE/AMgAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
-  border-left-color: #2D2D2D;
-  border-right-color: #2D2D2D;
+  border-left-color: #3A3A3A;
+  border-right-color: #3A3A3A;
 }
 
 #red-ui-sidebar-separator {
@@ -190,7 +190,7 @@
 
 .red-ui-tray-resize-handle {
   background: #1E1E1E url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAzMzMyE/AMgAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
-  border-left-color: #2B2B2B;
+  border-left-color: #3A3A3A;
 }
 
 /*
@@ -233,10 +233,10 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 * jQuery ui widgets
 */
 .ui-widget.ui-widget-content {
-  border-color: #2C2C2C;
+  border-color: #3A3A3A;
 }
 .ui-widget-content {
-  border-color: #2C2C2C;
+  border-color: #3A3A3A;
   background: #121212;
   color: #CCC;
 }
@@ -256,5 +256,5 @@ ul.red-ui-sidebar-node-config-list .red-ui-palette-label {
 }
 
 ul.red-ui-sidebar-node-config-list .red-ui-palette-node {
-  border-color: #2B2B2B;
+  border-color: #3A3A3A;
 }
