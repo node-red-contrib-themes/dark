@@ -215,11 +215,13 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 .red-ui-icons-flow {
   background-image: url(/red/images/subflow_tab.svg);
   filter: brightness(0) saturate(100%) invert(96%) sepia(0%) saturate(551%) hue-rotate(231deg) brightness(91%) contrast(80%);
-  }
+}
+
 .red-ui-treeList-spinner {
   background: url(/red/images/spin.svg) 50% 50% no-repeat;
   filter: brightness(0) saturate(100%) invert(96%) sepia(0%) saturate(551%) hue-rotate(231deg) brightness(91%) contrast(80%);
-  }
+}
+
 .red-ui-editor i.spinner,
 .red-ui-editor-dialog i.spinner,
 .red-ui-menu i.spinner,
@@ -228,18 +230,21 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 .red-ui-icon-picker i.spinner {
   background: url(/red/images/spin.svg) no-repeat 50% 50%;
   filter: brightness(0) saturate(100%) invert(96%) sepia(0%) saturate(551%) hue-rotate(231deg) brightness(91%) contrast(80%);
-  }
+}
+
 /*
 * jQuery ui widgets
 */
 .ui-widget.ui-widget-content {
   border-color: #3A3A3A;
 }
+
 .ui-widget-content {
   border-color: #3A3A3A;
   background: #121212;
   color: #CCC;
 }
+
 /*
 * RPi GPIO - https://github.com/node-red-contrib-themes/midnight-red/pull/15
 */
@@ -248,9 +253,8 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 }
 
 /* 
-  Config nodes
+* Config nodes
 */
-
 ul.red-ui-sidebar-node-config-list .red-ui-palette-label {
   color: #AAA;
 }
