@@ -46,11 +46,11 @@
 }
 
 .ace-tomorrow .ace_marker-layer .ace_active-line {
-  background: #3A3A3A
+  background: #2A2A2A
 }
 
 .ace-tomorrow .ace_gutter-active-line {
-  background-color: #3A3A3A
+  background-color: #2A2A2A
 }
 
 .ace-tomorrow .ace_stack {
@@ -146,51 +146,51 @@
 * Node-RED Dashboard
 */
 .nr-db-sb-group-list li {
-  border-bottom-color: #121212 !important;
+  border-bottom-color: var(--red-ui-secondary-background) !important;
 }
 
 .nr-db-sb-list-handle {
-  color: #CCC !important;
+  color: var(--red-ui-primary-text-color) !important;
 }
 
 .nr-db-sb-list-header,
 .nr-db-sb-tab-list-item {
-  color: #CCC !important;
+  color: var(--red-ui-primary-text-color) !important;
 }
 
 .nr-db-sb-list-header:hover,
 .nr-db-sb-group-list-header:hover,
 .nr-db-sb-widget-list-header:hover {
-  background-color: #1E1E1E !important;
-  color: #CCC !important;
+  background-color: var(--red-ui-primary-background) !important;
+  color: var(--red-ui-primary-text-color) !important;
 }
 
 .nr-db-sb-tab-list-header {
-  background-color: #121212 !important;
+  background-color: var(--red-ui-secondary-background) !important;
 }
 
 /*
 * Grip on separators
 */
 .red-ui-panels-separator {
-  border-top-color: #3A3A3A;
-  border-bottom-color: #3A3A3A;
-  background: #1E1E1E url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAFCAYAAAAHQL+kAAAAcUlEQVQ4T91TSQoAIQyzC+gD5nP+UZ+nKKgdKniROc1NC4UkhdIQCuaSghijnO6FiAyEEGSMcbQXRLzDyEzEe/+01kA7pWR678DMmHM2zjlQXmsVay2s2BbfdZ1/aX/i3vcQ0XwBRBTFzCylFL1rKH4BoAtAJMHah4sAAAAASUVORK5CYII=") no-repeat 50% 50%;
+  border-top-color: var(--red-ui-secondary-border-color);
+  border-bottom-color: var(--red-ui-secondary-border-color);
+  background: var(--red-ui-primary-background) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAFCAYAAAAHQL+kAAAAcUlEQVQ4T91TSQoAIQyzC+gD5nP+UZ+nKKgdKniROc1NC4UkhdIQCuaSghijnO6FiAyEEGSMcbQXRLzDyEzEe/+01kA7pWR678DMmHM2zjlQXmsVay2s2BbfdZ1/aX/i3vcQ0XwBRBTFzCylFL1rKH4BoAtAJMHah4sAAAAASUVORK5CYII=") no-repeat 50% 50%;
 }
 
 .red-ui-panels.red-ui-panels-horizontal>.red-ui-panels-separator {
-  background: #1E1E1E url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAzMzMyE/AMgAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
-  border-left-color: #3A3A3A;
-  border-right-color: #3A3A3A;
+  background: var(--red-ui-primary-background) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAzMzMyE/AMgAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
+  border-left-color: var(--red-ui-secondary-border-color);
+  border-right-color: var(--red-ui-secondary-border-color);
 }
 
 #red-ui-sidebar-separator {
-  background: #1E1E1E url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAzMzMyE/AMgAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
+  background: var(--red-ui-primary-background) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAzMzMyE/AMgAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
 }
 
 .red-ui-tray-resize-handle {
-  background: #1E1E1E url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAzMzMyE/AMgAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
-  border-left-color: #3A3A3A;
+  background: var(--red-ui-primary-background) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAyAQMAAACu3oOzAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAZQTFRFAAAAzMzMyE/AMgAAAAJ0Uk5TAP9bkSK1AAAADUlEQVR4nGMoYKA5BABGYBXhGD2hFwAAAABJRU5ErkJggg==") no-repeat 50% 50%;
+  border-left-color: var(--red-ui-primary-border-color);
 }
 
 /*
@@ -237,13 +237,13 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 * jQuery ui widgets
 */
 .ui-widget.ui-widget-content {
-  border-color: #3A3A3A;
+  border-color: var(--red-ui-secondary-border-color);
 }
 
 .ui-widget-content {
-  border-color: #3A3A3A;
-  background: #121212;
-  color: #CCC;
+  border-color: var(--red-ui-secondary-border-color);
+  background: var(--red-ui-secondary-background);
+  color: var(--red-ui-primary-text-color);
 }
 
 /*
@@ -257,9 +257,9 @@ button.red-ui-typedInput-option-trigger .red-ui-typedInput-option-label img {
 * Config nodes
 */
 ul.red-ui-sidebar-node-config-list .red-ui-palette-label {
-  color: #AAA;
+  color: var(--red-ui-primary-text-color);
 }
 
 ul.red-ui-sidebar-node-config-list .red-ui-palette-node {
-  border-color: #3A3A3A;
+  border-color: var(--red-ui-primary-border-color);
 }
