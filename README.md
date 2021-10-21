@@ -1,4 +1,4 @@
-# Dark Node-RED theme
+# Node-RED Contrib Theme: Dark
 
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE)
