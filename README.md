@@ -1,4 +1,4 @@
-# Dark Node-RED theme
+# Node-RED Contrib Theme: Dark
 
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE)
@@ -43,6 +43,23 @@ If you want to try it, add the following to the `editorTheme` section of your `s
 editorTheme: {
     theme: "dark-scroll"
 },
+```
+
+### Monaco Editor Themes
+
+This package comes with a pre-configured theme for the Monaco editor.
+
+**NOTE**: Node-RED version 2.1 or newer is required.
+
+If you want to use it, leave the `theme` option under `codeEditor` in your `settings.js` file commented out.
+
+```js
+codeEditor: {
+    lib: "monaco",
+    options: {
+        // theme: "vs",
+    }
+}    
 ```
 
 For more details on the configuration please refer to the
