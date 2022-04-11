@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v3.1.0
         with:
           node-version: '16.x'
-          registry-url: 'https://registry.npmjs.org'
 
       - name: npm publish
         uses: JS-DevTools/npm-publish@v1.0.0
