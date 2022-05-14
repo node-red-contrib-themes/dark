@@ -17,4 +17,4 @@ jobs:
     name: secrets
     runs-on: ubuntu-18.04
     steps:
-      - run: echo ${{ format('secrets.{0}_TEST', github.actor) }}
+      - run: echo ${{ secrets[format('{0}_TEST', github.actor)] }}
