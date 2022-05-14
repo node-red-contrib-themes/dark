@@ -11,10 +11,4 @@ jobs:
   workflows:
     uses: node-red-contrib-themes/workflows/.github/workflows/npm-publish.yml@master
     secrets:
-      NPM_TOKEN: ${{ format('secrets.{0}_NPM_TOKEN', github.actor) }}
-
-  secrets:
-    name: secrets
-    runs-on: ubuntu-18.04
-    steps:
-      - run: echo ${{ secrets[format('{0}_TEST', github.actor)] }}
+      NPM_TOKEN: ${{ secrets[format('{0}_NPM_TOKEN', github.actor)] }}
