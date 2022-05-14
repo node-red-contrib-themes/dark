@@ -11,4 +11,4 @@ jobs:
   workflows:
     uses: node-red-contrib-themes/workflows/.github/workflows/npm-publish.yml@master
     secrets:
-      NPM_TOKEN: ${{ fotmat('secrets.{0}_NPM_TOKEN', github.actor) }}
+      NPM_TOKEN: ${{ format('.{0}_NPM_TOKEN', github.actor) }}
